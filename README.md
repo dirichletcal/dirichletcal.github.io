@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration
 
-You can use the [editor on GitHub](https://github.com/dirichletcal/dirichletcal.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Meelis Kull], [Miquel Perello Nieto], [Markus Kängsepp], [Telmo de Menezes e Silva Filho], [Hao Song], and [Peter Flach]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Class probabilities predicted by most multiclass classifiers are uncalibrated, often tending towards over-confidence. With neural networks, calibration can be improved by temperature scaling, a method to learn a single corrective multiplicative factor for inputs to the last softmax layer. On non-neural models the existing methods apply binary calibration in a pairwise or one-vs-rest fashion.
 
-### Markdown
+We propose a natively multiclass calibration method applicable to classifiers from any model class,
+derived from Dirichlet distributions and generalising the beta calibration method from binary classification.
+It is easily implemented with neural nets since it is equivalent to log-transforming the uncalibrated probabilities, followed by one linear layer and softmax.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Experiments demonstrate improved probabilistic predictions according to multiple measures (confidence-ECE, classwise-ECE, log-loss, Brier score) across a wide range of datasets and classifiers. Parameters of the learned Dirichlet calibration map provide insights to the biases in the uncalibrated model. 
 
-```markdown
-Syntax highlighted code block
+## NeurIPS 2019
 
-# Header 1
-## Header 2
-### Header 3
+Click on the following links to access the paper or download the poster and the presentation slides from NeurIPS 2019.
 
-- Bulleted
-- List
+* [NeurIPS2019 paper]
+* [NeurIPS2019 poster] 
+* [NeurIPS2019 slides]
+* [NeurIPS2019 video] 
 
-1. Numbered
-2. List
+# Support or Contact
 
-**Bold** and _Italic_ and `Code` text
+If you are having problems executing the experiments or the tutorials, do not hesitate to contact us.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dirichletcal/dirichletcal.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[//]: # (References)
+   [Meelis Kull]: <http://www.bris.ac.uk/engineering/people/meelis-kull/>
+   [Miquel Perello Nieto]: <https://www.perellonieto.com/>
+   [Markus Kängsepp]: <https://www.linkedin.com/in/markus-k%C3%A4ngsepp-10a95a142/?originalSubdomain=ee>
+   [Telmo de Menezes e Silva Filho]: <https://www.researchgate.net/profile/Telmo_Silva_Filho>
+   [Hao Song]: <http://www.bristol.ac.uk/engineering/people/hao-song/index.html>
+   [Peter Flach]: <https://www.cs.bris.ac.uk/~flach/>
+   [NeurIPS2019 paper]: <https://github.com/dirichletcal/tobeadded>
+   [NeurIPS2019 poster]: <https://github.com/dirichletcal/tobeadded>
+   [NeurIPS2019 slides]: <https://github.com/dirichletcal/tobeadded>
+   [NeurIPS2019 video]: <https://github.com/dirichletcal/tobeadded>

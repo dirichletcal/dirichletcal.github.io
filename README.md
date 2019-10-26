@@ -32,5 +32,5 @@ If you are having problems executing the experiments or the tutorials, do not he
    [Peter Flach]: <https://www.cs.bris.ac.uk/~flach/>
    [NeurIPS2019 paper]: <https://github.com/dirichletcal/tobeadded>
    [NeurIPS2019 poster]: <https://github.com/dirichletcal/tobeadded>
-   [NeurIPS2019 slides]: <https://github.com/dirichletcal/tobeadded>
+   [NeurIPS2019 slides]: <https://dirichletcal.github.io/documents/neurips2019/slides.pdf>
    [NeurIPS2019 video]: <https://github.com/dirichletcal/tobeadded>

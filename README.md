@@ -31,7 +31,7 @@ If you are having problems executing the experiments or the tutorials, do not he
    [Telmo de Menezes e Silva Filho]: <https://www.researchgate.net/profile/Telmo_Silva_Filho>
    [Hao Song]: <http://www.bristol.ac.uk/engineering/people/hao-song/index.html>
    [Peter Flach]: <https://www.cs.bris.ac.uk/~flach/>
-   [NeurIPS2019 paper]:  <https://github.com/dirichletcal/tobeadded>
+   [NeurIPS2019 paper]:  <https://arxiv.org/abs/1910.12656>
    [NeurIPS2019 poster]: <https://dirichletcal.github.io/documents/neurips2019/poster.pdf>
    [NeurIPS2019 slides]: <https://dirichletcal.github.io/documents/neurips2019/slides.pdf>
    [NeurIPS2019 video]:  <https://dirichletcal.github.io/documents/neurips2019/video/>

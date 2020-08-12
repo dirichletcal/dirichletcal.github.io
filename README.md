@@ -15,6 +15,7 @@ Experiments demonstrate improved probabilistic predictions according to multiple
 Click on the following links to access the paper or download the poster and the presentation slides from NeurIPS 2019.
 
 * [NeurIPS2019 paper]
+* [NeurIPS2019 supplemental]
 * [NeurIPS2019 poster] 
 * [NeurIPS2019 slides]
 * [NeurIPS2019 video] 
@@ -32,6 +33,7 @@ If you are having problems executing the experiments or the tutorials, do not he
    [Hao Song]: <http://www.bristol.ac.uk/engineering/people/hao-song/index.html>
    [Peter Flach]: <https://www.cs.bris.ac.uk/~flach/>
    [NeurIPS2019 paper]:  <https://arxiv.org/abs/1910.12656>
+   [NeurIPS2019 supplemental]: <https://dirichletcal.github.io/documents/neurips2019/supplemental.pdf>
    [NeurIPS2019 poster]: <https://dirichletcal.github.io/documents/neurips2019/poster.pdf>
    [NeurIPS2019 slides]: <https://dirichletcal.github.io/documents/neurips2019/slides.pdf>
    [NeurIPS2019 video]:  <https://dirichletcal.github.io/documents/neurips2019/video/>
